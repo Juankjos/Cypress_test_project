@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "cypress:open": "cypress open",
-    "archTest": "npx cypress run --browser firefox --spec cypress/e2e/test/archivisticaLogin.cy.js"
+    "cypress:open": "cypress open"
   },
   "keywords": [
     "e2e",
