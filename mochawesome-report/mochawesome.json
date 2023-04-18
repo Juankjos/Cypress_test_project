@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-04-18T01:10:56.295Z",
+    "end": "2023-04-18T01:11:06.796Z",
+    "duration": 10501,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8cba4f94-e3be-4261-a259-9e4d7230c1ba",
+      "title": "",
+      "fullFile": "cypress/e2e/Logintest/organizations.cy.js",
+      "file": "cypress/Logintest/organizations.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "431019a0-e0ad-4656-8815-0fc9896b237d",
+          "title": "Archivistica Login Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC1: Testing Archivistica Classification Board: Create Sections and series",
+              "fullTitle": "Archivistica Login Test TC1: Testing Archivistica Classification Board: Create Sections and series",
+              "timedOut": null,
+              "duration": 8425,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"http://domus.dyndns.biz:5555/test_arch/administrator/classifications/63f949ef23e5f6480c80819b\");\ncy.url().should('contain', \"classifications\");\ncy.get('.ng-value-container').find('input').click();",
+              "err": {},
+              "uuid": "cebfd8d6-07a4-4a38-8e59-d2fa71cbba73",
+              "parentUUID": "431019a0-e0ad-4656-8815-0fc9896b237d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cebfd8d6-07a4-4a38-8e59-d2fa71cbba73"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8425,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

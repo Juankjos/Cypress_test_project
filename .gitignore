@@ -1,7 +1,7 @@
 node_modules
 fixtures
 videos
-mochawesome-report
+mochawesome-report/assets
 screenshots
 azure-pipelines.yml
 test-azure-pipelines.yml
