@@ -1,3 +1,4 @@
+import 'cypress-file-upload' 
 Cypress.Commands.add('LoginArchivistica', () => {
     cy.session("Login", ()=>{
         cy.fixture("fixtures-demo/Credentials").then((credent)=>{
