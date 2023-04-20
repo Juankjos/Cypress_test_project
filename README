@@ -1,0 +1,12 @@
+NODE PACKAGES:
+cypress-file-upload
+cypress-json-results
+cypress-mochawesome-reporter
+
+To use the cypress_file_upload must be up in commands.js as import 'cypress-file-upload' 
+
+CREDENTIALS
+Credentials must be in fixtures/fixtures-demo/Credentials.json
+
+PDFs TO Upload
+PDFs must be in fixtures/mypdf.pdf

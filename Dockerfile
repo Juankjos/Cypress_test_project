@@ -4,6 +4,7 @@ RUN mkdir /cypress_test_project
 WORKDIR /cypress_test_project
 #Copiamos el contenido de package.json, cypress.json y todo el contenido de la carpeta de Cypress al contenedor
 COPY ./package.json .
+#COPY ./package-lock.json .
 COPY ./cypress.config.js .
 COPY ./cypress ./cypress
 RUN npm install

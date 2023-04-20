@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-04-18T18:08:37.221Z",
-    "end": "2023-04-18T18:08:45.362Z",
-    "duration": 8141,
+    "start": "2023-04-20T00:32:24.708Z",
+    "end": "2023-04-20T00:32:34.167Z",
+    "duration": 9459,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ce77300a-362a-419d-91d6-bc971cc89d7a",
+      "uuid": "03d7c04b-f80f-44d0-bad9-3a9b45f72c5d",
       "title": "",
       "fullFile": "cypress\\e2e\\Logintest\\organizations.cy.js",
       "file": "cypress\\e2e\\Logintest\\organizations.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "cdfeba1d-7e5a-413b-be95-8f6d120642ba",
+          "uuid": "050856c2-12d1-4213-b57e-704e664c831f",
           "title": "Archivistica Login Test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "TC1: Testing Archivistica Classification Board: Create Sections and series",
               "fullTitle": "Archivistica Login Test TC1: Testing Archivistica Classification Board: Create Sections and series",
               "timedOut": null,
-              "duration": 6739,
+              "duration": 7357,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"http://domus.dyndns.biz:5555/test_arch/administrator/classifications/63f949ef23e5f6480c80819b\");\ncy.url().should('contain', \"classifications\");\ncy.get('.ng-value-container').find('input').click();",
               "err": {},
-              "uuid": "1c9478ee-63b6-40fb-a110-c0f921ea976d",
-              "parentUUID": "cdfeba1d-7e5a-413b-be95-8f6d120642ba",
+              "uuid": "0dbea8d0-5c9d-42fe-b0e4-2e49fa29f618",
+              "parentUUID": "050856c2-12d1-4213-b57e-704e664c831f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1c9478ee-63b6-40fb-a110-c0f921ea976d"
+            "0dbea8d0-5c9d-42fe-b0e4-2e49fa29f618"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6739,
+          "duration": 7357,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
